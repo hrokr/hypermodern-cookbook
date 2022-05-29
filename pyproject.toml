@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hypermodern-cookbook"
+version = "0.1.0"
+description = "Cookbook of Claudio Jolowicz's hypermodern python article and repo"
+authors = ["hrokr <alex.rook@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ['cookbook', 'hypermodern']
+homepage = "https://github.com/hrokr/hypermodern-cookbook"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
